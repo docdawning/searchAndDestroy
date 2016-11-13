@@ -14,10 +14,5 @@
 </div> <!-- end fusion sticky header wrapper -->
 
 
-<?php 
-
-
-?>
-
 
 

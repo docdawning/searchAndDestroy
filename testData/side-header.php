@@ -73,5 +73,3 @@ do_action( 'avada_after_header_wrapper' );
 
 
 
-
-

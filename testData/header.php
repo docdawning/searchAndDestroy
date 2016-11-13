@@ -351,5 +351,3 @@ if ( ! function_exists( 'avada_mobile_main_menu' ) ) {
 
 
 
-
-
