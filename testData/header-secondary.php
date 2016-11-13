@@ -16,4 +16,10 @@ $content_2 = avada_secondary_header_content( 'header_right_content' );
 </div>
 
 
+<?php 
+
+
+?>
+
+
 

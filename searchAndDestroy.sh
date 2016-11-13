@@ -50,7 +50,9 @@ do
 
 	## SGREP
 	cp $infectedFile $infectedFile.temp
-	sgrep -o '%r\n' '(start .. end) extracting ("<?php".."?>" containing "###=CACHE START=###")' $infectedFile.temp > $infectedFile
+	#sgrep -o '%r\n' '(start .. end) extracting ("<?php".."?>" containing "###=CACHE START=###")' $infectedFile.temp > $infectedFile
+	sgrep -o '%r\n' '(start .. end) extracting ("//###=CACHE START=###".."//###=CACHE END=###" containing "nJLtXPScp3AyqPtxnJW2XFxtrlNtMKWlo3WspzIjo")' $infectedFile.temp > $infectedFile
+
 	rm $infectedFile.temp
 done
 
