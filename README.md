@@ -2,6 +2,8 @@
 This is a little project of mine to help clean up some lovely injected PHP that I found on one of my web servers. I don't know how it got it, but I think it might have come along
 with a site I took over for someone who had it hosted with GoDaddy, that site got rocked constantly. 
 
+Licensed using the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>.
+
 The injected code was/is:
 
 <pre>
