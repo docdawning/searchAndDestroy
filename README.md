@@ -4,11 +4,19 @@ with a site I took over for someone who had it hosted with GoDaddy, that site go
 
 Licensed using the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>.
 
+<h2>Usage</h2>
 To run it, first use the <i>copyTestData.sh</i> script to clone the local sample of infected files.
 Then run the script such as <pre>./searchAndDestory.sh testData</pre>
 
-The injected code was/is:
+Example output when it's run is:
+<pre>
+Beginning search in /var/www/arminass.gov/www/
+282 affected files are reported in "./searchAndDestroy.sh.affectedFiles"
+Fixed 282/282 infected files, from hell
+</pre>
 
+<h2>Injected Code</h2>
+The injected code was/is:
 <pre>
 //###=CACHE START=###
 @error_reporting(E_ALL);
