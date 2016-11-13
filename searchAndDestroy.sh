@@ -49,7 +49,9 @@ do
 	#perl -0pe 's/$SEARCH/\/\/loadupdates.com malware removed/' $infectedFile
 
 	## SGREP
-	echo sgrep -o '%r\n' '(start .. end) extracting ("<?php".."?>" containing "###=CACHE START=###")' $infectedFile
+	cp $infectedFile $infectedFile.temp
+	sgrep -o '%r\n' '(start .. end) extracting ("<?php".."?>" containing "###=CACHE START=###")' $infectedFile.temp > $infectedFile
+	rm $infectedFile.temp
 done
 
 echo -e "Well, that's it."

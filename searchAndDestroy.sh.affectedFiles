@@ -1,7 +1,2 @@
-templates/header-1.php
-templates/header-2.php
-templates/header-secondary.php
-templates/side-header.php
-templates/header.php
-templates/header-3.php
-templates/header-secondary-main-menu.php
+testData/side-header.php
+testData/header.php
