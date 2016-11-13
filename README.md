@@ -4,6 +4,9 @@ with a site I took over for someone who had it hosted with GoDaddy, that site go
 
 Licensed using the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>.
 
+To run it, first use the <i>copyTestData.sh</i> script to clone the local sample of infected files.
+Then run the script such as <pre>./searchAndDestory.sh testData</pre>
+
 The injected code was/is:
 
 <pre>
