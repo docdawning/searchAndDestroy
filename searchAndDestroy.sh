@@ -36,7 +36,7 @@ grep -Rl "$SEARCH_STRING" $BASE_DIR > $AFFECTED_FILE_LIST
 NUMBER_OF_AFFECTED_FILES=$(wc -l < "$AFFECTED_FILE_LIST")
 
 if [ $NUMBER_OF_AFFECTED_FILES -lt 1 ]; then
-	echo -e "No affected files were found under `pwd`. Halting."
+	echo -e "No affected files were found under $BASE_DIR. Halting."
 	exit 0
 fi
 
