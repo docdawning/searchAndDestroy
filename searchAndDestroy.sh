@@ -26,7 +26,6 @@ BASE_DIR=$1
 ### MAIN BEGINS
 if [ $# -ne 1 ]; then
 	echo -e "Usage: ./$0 [base directory to recursive in to]"
-	echo -e "\n\nNote that if you use an input file with \" characters, you must escape them, you sack of...\\\""
 	exit 1
 fi
 
