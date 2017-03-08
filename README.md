@@ -1,8 +1,7 @@
 # searchAndDestroy
-This is a little project of mine to help clean up some lovely injected PHP that I found on one of my web servers. I don't know how it got it, but I think it might have come along
-with a site I took over for someone who had it hosted with GoDaddy, that site got rocked constantly. 
+This is a little project of mine to help clean up some lovely injected PHP that I found on one of my web servers. Seems the malware was injected in to my server through an exploit in an highly popular but very old wordpress theme hosted by one of my virtual hosts. The malware spread to other wordpress installs. Fricksauce. 
 
-Licensed using the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>.
+This script is Licensed using the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>. Use at your own risk. Backups are always your responsibility. This script worked on my Ubuntu Linux environment well, that's what I made it for.
 
 <h2>Usage</h2>
 To run it, first use the <i>copyTestData.sh</i> script to clone the local sample of infected files.
