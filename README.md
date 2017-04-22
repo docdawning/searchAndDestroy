@@ -3,6 +3,8 @@ This is a little project of mine to help clean up some lovely injected PHP that 
 
 This script is Licensed using the <a href="https://en.wikipedia.org/wiki/MIT_License">MIT license</a>. Use at your own risk. Backups are always your responsibility. This script worked on my Ubuntu Linux environment well, that's what I made it for.
 
+My personal blog post over this topic is available here: https://dawning.ca/2016/battle-against-injected-php/
+
 <h2>Usage</h2>
 To run it, first use the <i>copyTestData.sh</i> script to clone the local sample of infected files.
 Then run the script such as <pre>./searchAndDestory.sh testData</pre>
